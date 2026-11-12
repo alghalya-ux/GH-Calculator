@@ -1,12 +1,14 @@
 [project]
-name = "blank-app-template"
+name = "green-hydrogen-optimizer"
 version = "0.1.0"
-description = "A simple Streamlit app template."
+description = "Green hydrogen system design and optimization tool"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
+
 dependencies = [
     "streamlit>=1.61.1",
     "pandas",
+    "numpy",
     "matplotlib",
     "openpyxl",
 ]
